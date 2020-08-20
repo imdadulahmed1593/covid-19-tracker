@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Covid19 Tracker</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="app-wrap">
+        <h1 class="text-center m-4">Covid-19 Tracker</h1>
+        <div class="search-box">
+
+            <input type="text" id="search-value" placeholder="country name">
+            <button id="search-btn" class="btn btn-lg btn-success">See Results</button>
+
+        </div>
+        <div id="search-results" class="container total-results"></div>
+        <div class="container total-results">
+            <h1 class="text-center m-4"><strong>Bangladesh</strong> </h1>
+            <div class="row">
+                <div class="col-md-4 affected total-result">
+                    <h2 id="BD-affected">Affected Total : </h2>
+
+                </div>
+                <div class="col-md-4  recovered total-result">
+                    <h2 id="BD-recovered">Recovered Total : </h2>
+
+                </div>
+                <div class="col-md-4 total total-result">
+                    <h2 id="BD-deaths">Deaths Total : </h2>
+
+                </div>
+            </div>
+
+        </div>
+        <div class="container mb-5 total-results">
+            <h1 class="text-center m-4"><strong>Global</strong></h1>
+            <div class="row">
+                <div class="col-md-4 affected total-result">
+                    <h2 id="global-affected">Affected Total :</h2>
+
+                </div>
+                <div class="col-md-4 recovered total-result">
+                    <h2 id="global-recovered">Recovered Total :</h2>
+
+                </div>
+                <div class="col-md-4 total total-result">
+                    <h2 id="global-deaths">Deaths Total :</h2>
+
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

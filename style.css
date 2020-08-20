@@ -1,0 +1,82 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url("https://image.freepik.com/free-vector/thank-you-doctors-nurses_23-2148498590.jpg");
+    background-size:cover;
+    background-position: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #fff;
+}
+
+.app-wrap{
+    display:flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.503) , rgba(0, 0, 0, 0.803));
+}
+
+.search-box{
+    background-image: linear-gradient();
+    width: 100vh;
+    margin:auto;
+    display: flex;
+    justify-content: center;
+}
+#search-value{
+    margin: 0px 10px;
+    padding: 9px 20px;
+    border: none;
+    outline: none;
+    background-color:#fff;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px grey;
+}
+
+.total-results{
+    margin-top: 100px;
+}
+
+.total-result{
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px grey;
+    background-color: rgba(30, 30, 30, 0.1);
+    padding: 65px 20px;
+    margin-top: 30px;
+    
+}
+.total-results h1{
+    font-size: 40px;
+    text-shadow: 1px 1px 2px gray;
+    
+} 
+
+.affected{
+    background-color: #fdcb6e;
+}
+
+.affected:hover{
+    background-color: #ffeaa7;
+    color:#111;
+}
+
+.recovered{
+    background-color: #00b894;
+
+}
+.recovered:hover{
+    background-color: #55efc4;
+    color:#111;
+
+}
+
+.total{
+    background-color: #d63031;
+}
+.total:hover{
+    background-color: #ff7675;
+    color:#111;
+}
