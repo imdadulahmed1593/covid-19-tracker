@@ -38,15 +38,15 @@ document.getElementById("search-btn").addEventListener('click', function () {
             searchResults.innerHTML =
                 `<h1 class="text-center m-4">${data.country}</h1>
             <div class="row">
-                <div class="col-md-4 total-result">
+                <div class="affected col-md-4 total-result">
                     <h2 >Affected Total : ${data.cases}</h2>
                     <h4>Today : ${data.todayCases}</h4>
                 </div>
-                <div class="col-md-4 total-result">
+                <div class="recovered col-md-4 total-result">
                     <h2 >Recovered Total : ${data.recovered}</h2>
                     <h4>Active Patients : ${data.active}</h4>
                 </div>
-                <div class="col-md-4 total-result">
+                <div class="total col-md-4 total-result">
                     <h2 >Deaths Total : ${data.deaths}</h2>
                     <h4>Today : ${data.todayDeaths}</h4>
                 </div>
@@ -65,15 +65,15 @@ document.getElementById("search-value").addEventListener('keypress', function (e
                 searchResults.innerHTML =
                     `<h1 class="text-center m-4">${data.country}</h1>
             <div class="row">
-                <div class="col-md-4 total-result">
+                <div class="affected col-md-4 total-result">
                     <h2 >Affected Total : ${data.cases}</h2>
                     <h4>Today : ${data.todayCases}</h4>
                 </div>
-                <div class="col-md-4 total-result">
+                <div class="recovered col-md-4 total-result">
                     <h2 >Recovered Total : ${data.recovered}</h2>
                     <h4>Active Patients : ${data.active}</h4>
                 </div>
-                <div class="col-md-4 total-result">
+                <div class="total col-md-4 total-result">
                     <h2 >Deaths Total : ${data.deaths}</h2>
                     <h4>Today : ${data.todayDeaths}</h4>
                 </div>
